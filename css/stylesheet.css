@@ -1,0 +1,75 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*general styles*/
+html, body {
+    height: 100vh;
+}
+body {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+h1, h2, h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p, li {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*header and navigation*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    justify-content: space-between;
+    background-color: #ffffff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+header h1 a {
+    text-decoration: none;
+    color: #000000;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem; 
+    list-style-type: none;
+}
+nav ul li {
+    padding-right: 2rem; 
+}
+nav ul li a {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+    color:#000000;
+}
+
+/*main*/
+main {
+    max-width: 60%;
+    padding-top:20ch;
+    margin:auto;
+    text-align: justify;
+}
+
+/*footer*/
+footer {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+
+/*utilities*/
