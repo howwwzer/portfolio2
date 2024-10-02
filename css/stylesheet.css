@@ -10,7 +10,7 @@ body {
     flex-direction:column;
     justify-content: space-between;
 }
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -132,10 +132,17 @@ input[type=text], select, textarea {
     border-color: #000000;
   }
 
-/*page specific styling*/
+/*specific styling*/
 
-/*homepage*/
+/*containers*/
 .container {
     display: flex;
     justify-content: space-between;
 }
+.box {
+    border: solid;
+    border-width: 1px;
+    padding: 3ch;
+}
+
+/*responsive styling*/
