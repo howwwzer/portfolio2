@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg data-bbox="0 0 175 175" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175 175" height="175" width="175" data-type="ugc">
+    <g>
+        <path fill="#BBF5B9" d="M175 0v175H0V0h175z"/>
+        <path stroke-width="6" stroke="#1A594B" d="M156 30v82H37V30h119z" fill="none"/>
+        <path stroke-width="3" stroke="#BBF5B9" fill="#1A594B" d="M58.5 65.5c0 10.528-8.317 19-18.5 19s-18.5-8.472-18.5-19c0-10.529 8.317-19 18.5-19s18.5 8.471 18.5 19Z"/>
+        <path stroke-width="4" stroke="#BBF5B9" fill="#1A594B" d="M60 94v45a8 8 0 0 1-8 8H27a8 8 0 0 1-8-8V94a8 8 0 0 1 8-8h25a8 8 0 0 1 8 8z"/>
+    </g>
+</svg>
