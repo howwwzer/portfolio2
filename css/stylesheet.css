@@ -148,7 +148,7 @@ input[type=text], select, textarea {
     display: flex;
     justify-content: space-between;
 }
-/*container-two and three are for the box links on the portfolio and minis pages*/
+/*container-two and three are for the box links on the portfolio page*/
 .container-two {
     display: flex;
     flex-direction: column; /* Stack items vertically */
@@ -159,6 +159,13 @@ input[type=text], select, textarea {
     border-width: 1px;
     padding: 3ch;    
 }
+/*this is for the minis page*/
+.layout {
+    width: 100%;
+  
+    display: flex;
+    gap: 20px;
+  }  
 
 .box {
     border: solid;
