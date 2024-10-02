@@ -148,6 +148,18 @@ input[type=text], select, textarea {
     display: flex;
     justify-content: space-between;
 }
+/*container-two and three are for the box links on the portfolio and minis pages*/
+.container-two {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 20px;
+}
+.container-three {
+    border: solid;
+    border-width: 1px;
+    padding: 3ch;    
+}
+
 .box {
     border: solid;
     border-width: 1px;
