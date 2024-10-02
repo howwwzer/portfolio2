@@ -52,6 +52,7 @@ nav ul {
     list-style-type: none;
 }
 nav ul li {
+    position: relative;
     padding-left: 2rem; 
     padding-right: 2rem;
 }
@@ -63,10 +64,16 @@ nav ul li a {
     color:#000000;
 }
 
+nav ul li a:hover {
+    background-color: #cad0f7;
+    font-weight: 400;
+}
+
 /*drop down menu*/
 nav ul ul {
     position: absolute;
     top: 100%;
+    left: 0; 
     display: none;
 }
 nav ul ul li {
@@ -74,10 +81,12 @@ nav ul ul li {
 }
 
 nav li:hover ul {
-    display: block;
+    display:block;
+    text-align: left;
 }
 nav ul ul li a:hover {
-    background-color: #555;
+    background-color: #cad0f7;
+    font-weight: 400;
 }
 
 /*main*/
