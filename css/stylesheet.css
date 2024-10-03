@@ -106,7 +106,7 @@ main {
 
 /*footer*/
 footer {
-    margin-top: 2ch;
+    margin-top: 5ch;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -210,6 +210,23 @@ input[type=text], select, textarea {
 }
 .link-animation:hover {
     transform: scale (1.5);
+}
+/*skip buttons*/
+.skip {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 1.5ch;
+    border: solid;
+    border-width: 1px;
+    cursor: pointer;
+    font-family:"Roboto", sans-serif;
+    box-shadow: 4px 4px #000000;
+}
+.skip:hover {
+    background-color: #000000;
+    color:#ffffff;
+    border-color: #000000;
+    font-family:"Roboto", sans-serif;
 }
 
 
