@@ -116,6 +116,12 @@ footer {
     width: 100%;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
+footer a {
+    font-weight: 300;
+}
+footer a:hover {
+    font-weight: 400;
+}
 /*utilities*/
 
 /*specific styling*/
@@ -182,6 +188,7 @@ input[type=text], select, textarea {
 .container {
     display: flex;
     justify-content: space-between;
+    gap: 50px;
 }
 /*container-two and three are for the box links on the portfolio page*/
 .container-two {
