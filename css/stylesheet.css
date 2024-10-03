@@ -237,4 +237,19 @@ input[type=text], select, textarea {
     padding: 3ch;
 }
 
+/*homepage*/
+.homepage img {
+    box-shadow: 5px 5px #000000;
+}
+.homepage img:hover {
+ transition:cubic-bezier(1, 0, 0, 1);
+ transform:translate(5px);
+ box-shadow: 0 0 0 0;
+}
+
+.homepage figcaption {
+    text-align: center;
+    font-style: normal;
+}
+
 /*responsive styling*/
