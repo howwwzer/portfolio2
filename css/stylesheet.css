@@ -151,6 +151,9 @@ input[type=text], select, textarea {
     background-color: #000000;
     color:#ffffff;
     border-color: #000000;
+    transition:cubic-bezier(1, 0, 0, 1);
+    transform:translate(5px);
+    box-shadow: 0 0 0 0;
   }
 
 /*download button*/
@@ -170,6 +173,9 @@ input[type=text], select, textarea {
     color:#ffffff;
     border-color: #000000;
     font-family:"Roboto", sans-serif;
+    transition:cubic-bezier(1, 0, 0, 1);
+    transform:translate(5px);
+    box-shadow: 0 0 0 0;
 }
 
 /*containers*/
@@ -186,7 +192,13 @@ input[type=text], select, textarea {
 .container-three {
     border: solid;
     border-width: 1px;
-    padding: 3ch;    
+    padding: 3ch;
+    box-shadow: 8px 8px #000000;
+}
+.container-three:hover {
+    transition:cubic-bezier(1, 0, 0, 1);
+    transform:translate(5px);
+    box-shadow: 0 0 0 0;
 }
 /*minis*/
 .layout {
@@ -202,6 +214,12 @@ input[type=text], select, textarea {
     padding: 3ch;  
     height: 20rem;
     width: 20rem;
+    box-shadow: 8px 8px #000000;
+}
+.container-four:hover {
+    transition:cubic-bezier(1, 0, 0, 1);
+    transform:translate(5px);
+    box-shadow: 0 0 0 0;
 }
 
 /*link animations*/
@@ -227,6 +245,9 @@ input[type=text], select, textarea {
     color:#ffffff;
     border-color: #000000;
     font-family:"Roboto", sans-serif;
+    transition:cubic-bezier(1, 0, 0, 1);
+    transform:translate(5px);
+    box-shadow: 0 0 0 0;
 }
 
 
