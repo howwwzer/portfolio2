@@ -170,6 +170,22 @@ input[type=text], select, textarea {
     border-width: 1px;
     padding: 3ch;    
 }
+/*minis*/
+.layout {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }  
+  
+.container-four {
+    border: solid;
+    border-width: 1px;
+    padding: 3ch;  
+    height: 20rem;
+    width: 20rem;
+}
+
 /*link animations*/
 .link-animations {
     transition: transform 2s;
@@ -178,14 +194,8 @@ input[type=text], select, textarea {
     transform: scale (1.5);
 }
 
-/*this is for the minis page*/
-.layout {
-    width: 100%;
-  
-    display: flex;
-    gap: 20px;
-  }  
 
+/*case study boxes*/
 .box {
     border: solid;
     border-width: 1px;
