@@ -106,11 +106,15 @@ main {
 
 /*footer*/
 footer {
-    margin-top: auto;
+    margin-top: 2ch;
     display: flex;
     align-items: center;
     justify-content: center;
-  /*  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); */
+    background-color: #ffffff;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 /*utilities*/
 
@@ -166,6 +170,14 @@ input[type=text], select, textarea {
     border-width: 1px;
     padding: 3ch;    
 }
+/*link animations*/
+.link-animations {
+    transition: transform 2s;
+}
+.link-animation:hover {
+    transform: scale (1.5);
+}
+
 /*this is for the minis page*/
 .layout {
     width: 100%;
