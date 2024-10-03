@@ -118,17 +118,16 @@ footer {
 }
 /*utilities*/
 
+/*specific styling*/
+
 /*contact form*/
 /*contact form was created with the help of w3schools*/
-
-/*how to change font?*/
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */ 
     border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
@@ -141,8 +140,10 @@ input[type=text], select, textarea {
     color: #000000;
     padding: 12px 20px;
     border: solid;
-    border-radius: 4px;
+    border-width: 1px;
     cursor: pointer;
+    font-family:"Roboto", sans-serif;
+    box-shadow: 4px 4px #000000;
   }
   
   /* When moving the mouse over the submit button, add a darker green color */
@@ -152,7 +153,24 @@ input[type=text], select, textarea {
     border-color: #000000;
   }
 
-/*specific styling*/
+/*download button*/
+
+.download button {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 1.5ch;
+    border: solid;
+    border-width: 1px;
+    cursor: pointer;
+    font-family:"Roboto", sans-serif;
+    box-shadow: 4px 4px #000000;
+}
+.download button:hover {
+    background-color: #000000;
+    color:#ffffff;
+    border-color: #000000;
+    font-family:"Roboto", sans-serif;
+}
 
 /*containers*/
 .container {
